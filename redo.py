@@ -41,7 +41,7 @@ def send():
 
 
 print(":: Bot Running At 1 Pm ::")
-schedule.every().day.at("13:00").do(send)
+schedule.every().day.at("08:00").do(send)
 
 while True:
     schedule.run_pending()
